@@ -20,5 +20,3 @@ Icarus Verilog.
 - GTKWave
 - VS Code
 
-## Status
-🚧 Under Development
