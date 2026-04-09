@@ -1,7 +1,7 @@
 module transmitter #(
     parameter PARITY_EN   = 1,      // 1 = Enable parity
     parameter PARITY_TYPE = 0,      // 0 = Even, 1 = Odd
-    parameter XOR_KEY     = 8'h45   // 🔐 XOR KEY
+    parameter XOR_KEY     = 8'h45   //  XOR KEY
 )(
     input  wire clk,
     input  wire wr_en,
