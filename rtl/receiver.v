@@ -1,7 +1,7 @@
 module receiver #(
     parameter PARITY_EN   = 1,      // 1 = Enable parity
     parameter PARITY_TYPE = 0,      // 0 = Even, 1 = Odd
-    parameter XOR_KEY     = 8'h45   // 🔓 XOR KEY
+    parameter XOR_KEY     = 8'h45   //  XOR KEY
 )(
     input  wire clk,
     input  wire rst,
@@ -91,7 +91,7 @@ module receiver #(
 
                     STOP: if (sample_cnt == 15) begin
                         if (rx) begin
-                            // 🔓 XOR DECRYPTION
+                            //  XOR DECRYPTION
                             data_out <= shift_reg ^ XOR_KEY;
                             rdy <= 1'b1;
                         end
