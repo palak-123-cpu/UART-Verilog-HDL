@@ -44,7 +44,7 @@ module transmitter #(
                     tx   <= 1'b1;
                     busy <= 1'b0;
                     if (wr_en) begin
-                        // 🔐 XOR ENCRYPTION
+                        //  XOR ENCRYPTION
                         shift_reg <= data_in ^ XOR_KEY;
                         busy      <= 1'b1;
                         bit_inx   <= 3'd0;
