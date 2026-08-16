@@ -12,11 +12,8 @@ Icarus Verilog.
 - Configurable baud rate
 - Start/Stop bit framing
 - Testbench verification
-- GTKWave waveform analysis
 
 ## Tools Used
 - Verilog HDL
-- Icarus Verilog (iverilog)
-- GTKWave
-- VS Code
+- Xilinx Vivado
 
